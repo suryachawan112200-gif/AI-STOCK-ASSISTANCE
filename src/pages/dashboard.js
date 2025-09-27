@@ -54,7 +54,6 @@ export default function Dashboard() {
     setAnalysisError("");
     setAnalysisResult(null);
     try {
-      // Prepare payload with proper types
       const payload = {
         ...tradeInput,
         entry_price: parseFloat(tradeInput.entry_price),
